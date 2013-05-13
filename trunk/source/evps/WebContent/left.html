@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>EVPS - Navigation Bar</title>
+	<link href="css/ui-lightness/jquery-ui-1.10.2.custom.css" rel="stylesheet">
+	<script src="js/jquery-1.9.1.js"></script>
+	<script src="js/jquery-ui-1.10.2.custom.js"></script>
+	<script>
+	$(function() {
+		var icons = {
+			header: "ui-icon-circle-arrow-e",
+			activeHeader: "ui-icon-circle-arrow-s"
+		};
+		$( "#accordion" ).accordion({
+			icons: icons
+		});
+		$( "#toggle" ).button().click(function() {
+			if ( $( "#accordion" ).accordion( "option", "icons" ) ) {
+				$( "#accordion" ).accordion( "option", "icons", null );
+			} else {
+				$( "#accordion" ).accordion( "option", "icons", icons );
+			}
+		});
+	});
+	</script>
+		<script>
+	$(function() {
+		$( "#accordion" ).accordion({
+			collapsible: true
+		});
+	});
+	</script>
+</head>
+<body>
+<div id="accordion" style="WIDTH: 100%">
+	<h5 style="BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; FONT-FAMILY: tahoma, verdana, helvetica, arial, sans-serif; BACKGROUND: url(./images/title-bg.png) #eee repeat-x 50% bottom; COLOR: #005785; FONT-SIZE: 1.0em; BORDER-TOP: #ccc 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #ccc 1px solid; -moz-border-radius-topright: 5px; -webkit-border-top-right-radius: 5px; border-top-right-radius: 5px; -moz-border-radius-topleft: 5px; -webkit-border-top-left-radius: 5px; border-top-left-radius: 5px">Assessments</h5>
+	<div style="FONT-FAMILY: tahoma, verdana, helvetica, arial, sans-serif;FONT-SIZE: 12px;text-align: left;COLOR: #aaa">
+		<ul style="PADDING-LEFT: 0.1em;margin:0;">
+			<li style="TEXT-INDENT: 0em; TEXT-DECORATION: bold">
+				<a href="javascript:alert('1.1')">Create New Visit Assessment</a>
+			</li style="TEXT-INDENT: 0em; TEXT-DECORATION: bold">
+			<li>
+				<a href="javascript:alert('1.2')">List My Visit Assessments</a>
+			</li>
+			<li style="TEXT-INDENT: 0em; TEXT-DECORATION: bold">
+				<a href="javascript:alert('1.3')">Search Visit Assessments</a>
+			</li>
+	</div>
+	
+
+	<h5 style="BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; FONT-FAMILY: tahoma, verdana, helvetica, arial, sans-serif; BACKGROUND: url(./images/title-bg.png) #eee repeat-x 50% bottom; COLOR: #005785; FONT-SIZE: 1.1em; BORDER-TOP: #ccc 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #ccc 1px solid; -moz-border-radius-topright: 5px; -webkit-border-top-right-radius: 5px; border-top-right-radius: 5px; -moz-border-radius-topleft: 5px; -webkit-border-top-left-radius: 5px; border-top-left-radius: 5px">Actions & History</h5>
+	<!--
+	<div class="ui-widget-header">
+	-->
+	<div style="FONT-SIZE: 12px;text-align: left;COLOR: #aaa">
+		<ul style="PADDING-LEFT: 1.5em">
+		<li style="TEXT-INDENT: 0em; TEXT-DECORATION: bold">
+			<a href="javascript:alert('2.1')">List Actions</a>
+		</li>
+		<li style="TEXT-INDENT: 0em; TEXT-DECORATION: bold">
+			<a href="javascript:alert('2.2')">Search Actions</a>
+		</li>
+		<li style="TEXT-INDENT: 0em; TEXT-DECORATION: bold">
+			<a href="javascript:alert('2.3')">View History</a>
+		</li>		
+	</div>
+</div>
+<!--
+<button id="toggle">Toggle icons</button>
+</body>
+-->
+</html>

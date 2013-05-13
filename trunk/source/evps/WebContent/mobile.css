@@ -1,0 +1,51 @@
+BODY {
+	FONT-SIZE: 0.8em; -webkit-text-size-adjust: none
+}
+#site-table {
+	BORDER-BOTTOM: 0px; POSITION: relative; BORDER-LEFT: 0px; MARGIN: 0px; WIDTH: 960px; OVERFLOW: hidden; BORDER-TOP: 0px; BORDER-RIGHT: 0px; LEFT: -320px
+}
+#wrapper {
+	BORDER-BOTTOM: 0px; POSITION: relative; BORDER-LEFT: 0px; MARGIN: 0px; WIDTH: 320px; OVERFLOW: hidden; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+#header {
+	LINE-HEIGHT: 5em; FONT-SIZE: 0.7em
+}
+#navigation {
+	LINE-HEIGHT: 25px; BACKGROUND: url(../images/navigation-bg.png) #f0f0f0 repeat-x 50% top; HEIGHT: 10px; FONT-SIZE: 0.9em
+}
+#navigation UL {
+	DISPLAY: none
+}
+#pane {
+	DISPLAY: none
+}
+#pane-tab {
+	DISPLAY: none
+}
+.box {
+	WIDTH: 295px
+}
+.widget {
+	PADDING-BOTTOM: 1em
+}
+.top.widget {
+	MARGIN: 0px 11px 11px; WIDTH: 295px
+}
+.bottom.widget {
+	MARGIN: 0px 11px 11px; WIDTH: 295px
+}
+.right.widget {
+	MARGIN: 0px 11px 11px; WIDTH: 295px
+}
+.left.widget {
+	MARGIN: 0px 11px 11px; WIDTH: 295px
+}
+.custom.widget {
+	WIDTH: 11em
+}
+#debug {
+	DISPLAY: none
+}
+#popup {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; MAX-WIDTH: 280px; PADDING-TOP: 5px
+}

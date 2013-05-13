@@ -1,0 +1,282 @@
+FORM .username {
+	PADDING-LEFT: 20px; BACKGROUND: url(../../media/icons/user.png) no-repeat 2px center
+}
+FORM .password {
+	PADDING-LEFT: 20px; BACKGROUND: url(../../media/icons/locked.png) no-repeat 2px center
+}
+FORM .email {
+	PADDING-LEFT: 20px; BACKGROUND: url(../../media/icons/email.png) no-repeat 2px center
+}
+.italic.text {
+	FONT-STYLE: italic
+}
+.i.t {
+	FONT-STYLE: italic
+}
+.bold.text {
+	
+}
+.b.t {
+	
+}
+.small.text {
+	FONT-SIZE: 0.85em
+}
+.sm.t {
+	FONT-SIZE: 0.85em
+}
+.big.text {
+	FONT-SIZE: 1.2em
+}
+.bi.t {
+	FONT-SIZE: 1.2em
+}
+.color1.text {
+	COLOR: #aaa
+}
+.c1.t {
+	COLOR: #aaa
+}
+.color2.text {
+	COLOR: #777
+}
+.c2.t {
+	COLOR: #777
+}
+.indent.text {
+	PADDING-LEFT: 20px
+}
+.in.t {
+	PADDING-LEFT: 20px
+}
+.right.text {
+	TEXT-ALIGN: right
+}
+.r.t {
+	TEXT-ALIGN: right
+}
+.left.text {
+	TEXT-ALIGN: left
+}
+.l.t {
+	TEXT-ALIGN: left
+}
+.center.text {
+	TEXT-ALIGN: center
+}
+.c.t {
+	TEXT-ALIGN: center
+}
+.pagination {
+	MARGIN: 0.5em 0px
+}
+.pagination .selected {
+	FONT-SIZE: 1.5em; FONT-WEIGHT: bold
+}
+table-styled P {
+	DISPLAY: inline
+}
+.align-left {
+	TEXT-ALIGN: left
+}
+.al {
+	TEXT-ALIGN: left
+}
+.align-center {
+	TEXT-ALIGN: center
+}
+.ac {
+	TEXT-ALIGN: center
+}
+.align-right {
+	TEXT-ALIGN: right
+}
+.ar {
+	TEXT-ALIGN: right
+}
+.management {
+	TEXT-ALIGN: center; FLOAT: left
+}
+INS {
+	BACKGROUND-COLOR: #edfde2
+}
+DEL {
+	BACKGROUND-COLOR: #f9eced
+}
+LABEL {
+	PADDING-RIGHT: 1em; DISPLAY: block; FONT-WEIGHT: bold
+}
+DL {
+	MARGIN: 0.5em 0px
+}
+DL DT {
+	WIDTH: 30%; PADDING-RIGHT: 10px; MARGIN-BOTTOM: 0.5em; FLOAT: left; CLEAR: both; FONT-SIZE: 1em
+}
+DL DD {
+	MARGIN: 0px 0px 0.5em; WIDTH: 65%; FLOAT: left
+}
+.required {
+	WIDTH: 13px; DISPLAY: inline-block; BACKGROUND: url(../../media/icons/small_minus.png) no-repeat left top; HEIGHT: 13px
+}
+FORM .description {
+	COLOR: #999; FONT-SIZE: 0.8em; FONT-WEIGHT: normal
+}
+FORM .feedback {
+	COLOR: #902629; FONT-SIZE: 0.8em; FONT-WEIGHT: normal
+}
+*:first-child + HTML DL DD {
+	FLOAT: none
+}
+P {
+	MARGIN: 0px 0px 1.5em
+}
+.table-styled P {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+OBJECT {
+	MARGIN: 0px 0px 1em
+}
+IMG {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none; TEXT-DECORATION: none
+}
+.icon {
+	VERTICAL-ALIGN: middle
+}
+.spacer {
+	CLEAR: both
+}
+.float-clear {
+	CLEAR: both
+}
+.fc {
+	CLEAR: both
+}
+.float-left {
+	FLOAT: left
+}
+.fl {
+	FLOAT: left
+}
+.float-right {
+	FLOAT: right
+}
+.fr {
+	FLOAT: right
+}
+BLOCKQUOTE {
+	FONT-STYLE: italic; MARGIN-LEFT: 1.5em
+}
+CODE {
+	BACKGROUND-COLOR: #d7d7d7; FONT-FAMILY: "mono"; MARGIN-LEFT: 20px
+}
+HR {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BACKGROUND-COLOR: #e9e9e9; MARGIN: 0px 0px 10px; HEIGHT: 1px; COLOR: #e9e9e9; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+TABLE {
+	BORDER-COLLAPSE: collapse; FONT-SIZE: inherit
+}
+UL {
+	PADDING-LEFT: 1.5em
+}
+UL LI {
+	TEXT-INDENT: 0em; TEXT-DECORATION: none
+}
+UL.menu {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.widget UL {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+UL.menu LI {
+	BACKGROUND-IMAGE: none; PADDING-BOTTOM: 5px; TEXT-INDENT: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 10px; DISPLAY: inline-block; PADDING-TOP: 0px
+}
+.widget LI {
+	TEXT-INDENT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.notice {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 5px; MARGIN: 10px 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; PADDING-TOP: 5px
+}
+.success.notice {
+	BORDER-BOTTOM: #8dcc2e 2px solid; BORDER-LEFT: #8dcc2e 2px solid; BACKGROUND-COLOR: #dcefc1; COLOR: #65951d; BORDER-TOP: #8dcc2e 2px solid; BORDER-RIGHT: #8dcc2e 2px solid
+}
+.success.notice A {
+	COLOR: #65951d; TEXT-DECORATION: underline
+}
+.error.notice {
+	BORDER-BOTTOM: #ce3730 2px solid; BORDER-LEFT: #ce3730 2px solid; BACKGROUND-COLOR: #eec4c3; COLOR: #ae1f15; BORDER-TOP: #ce3730 2px solid; BORDER-RIGHT: #ce3730 2px solid
+}
+.error.notice A {
+	COLOR: #ae1f15; TEXT-DECORATION: underline
+}
+.info.notice {
+	BORDER-BOTTOM: #7e9fcc 2px solid; BORDER-LEFT: #7e9fcc 2px solid; BACKGROUND-COLOR: #d9e8fe; COLOR: #4264a1; BORDER-TOP: #7e9fcc 2px solid; BORDER-RIGHT: #7e9fcc 2px solid
+}
+.info.notice A {
+	COLOR: #4264a1; TEXT-DECORATION: underline
+}
+.warning.notice {
+	BORDER-BOTTOM: #f7e95e 2px solid; BORDER-LEFT: #f7e95e 2px solid; BACKGROUND-COLOR: #f6f4c9; COLOR: #b27f24; BORDER-TOP: #f7e95e 2px solid; BORDER-RIGHT: #f7e95e 2px solid
+}
+.warning.notice A {
+	COLOR: #b27f24; TEXT-DECORATION: underline
+}
+#popup-background {
+	Z-INDEX: 100; POSITION: fixed; FILTER: alpha(opacity=50); WIDTH: 100%; BACKGROUND: #000000; HEIGHT: 100%; TOP: 0px; LEFT: 0px; opacity: 0.5; _position: absolute
+}
+#popup-indicator {
+	Z-INDEX: 101; POSITION: fixed; WIDTH: 208px; DISPLAY: none; BACKGROUND: url(../../media/images/loading-animation.gif) no-repeat left top; HEIGHT: 13px; _position: absolute
+}
+#popup {
+	Z-INDEX: 102; BORDER-BOTTOM: #ccc 4px solid; POSITION: fixed; BORDER-LEFT: #ccc 4px solid; PADDING-BOTTOM: 2px; PADDING-LEFT: 15px; WIDTH: auto; PADDING-RIGHT: 15px; DISPLAY: none; BACKGROUND: #ffffff; HEIGHT: auto; FONT-SIZE: 13px; BORDER-TOP: #ccc 4px solid; BORDER-RIGHT: #ccc 4px solid; PADDING-TOP: 10px; _position: absolute
+}
+#popup-close {
+	POSITION: absolute; PADDING-LEFT: 20px; DISPLAY: block; BACKGROUND: url(../../media/icons/close.png) no-repeat left top; HEIGHT: 1.5em; TOP: 10px; CURSOR: pointer; RIGHT: 13px
+}
+#popup-text {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 10px; FONT-STYLE: italic; DISPLAY: block
+}
+#popup-image {
+	MARGIN: 20px 20px 10px
+}
+.ui-datepicker {
+	BORDER-BOTTOM: #ddd 3px solid; BORDER-LEFT: #ddd 3px solid; BACKGROUND-COLOR: #fff; WIDTH: 17em; BORDER-TOP: #ddd 3px solid; BORDER-RIGHT: #ddd 3px solid; PADDING-TOP: 5px
+}
+.ui-datepicker .ui-datepicker-prev {
+	POSITION: absolute; TOP: 2px
+}
+.ui-datepicker .ui-datepicker-next {
+	POSITION: absolute; TOP: 2px
+}
+.ui-datepicker .ui-datepicker-prev {
+	LEFT: 5px
+}
+.ui-datepicker .ui-datepicker-next {
+	RIGHT: 5px
+}
+.ui-datepicker .ui-datepicker-title {
+	TEXT-ALIGN: center; LINE-HEIGHT: 1.8em; MARGIN: 0px 2.3em
+}
+.ui-datepicker .ui-state-hover {
+	BACKGROUND-COLOR: #eee
+}
+.ui-datepicker .ui-state-active {
+	BACKGROUND-COLOR: #ddd
+}
+.ui-datepicker TABLE {
+	MARGIN: 0px 0px 0.4em 0.9em; WIDTH: 90%; BORDER-COLLAPSE: collapse; FONT-SIZE: 0.9em
+}
+.ui-datepicker TH {
+	BORDER-BOTTOM: 0px; TEXT-ALIGN: center; BORDER-LEFT: 0px; PADDING-BOTTOM: 0.7em; PADDING-LEFT: 0.3em; PADDING-RIGHT: 0.3em; BORDER-TOP: 0px; FONT-WEIGHT: bold; BORDER-RIGHT: 0px; PADDING-TOP: 0.7em
+}
+.ui-datepicker TD {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 1px; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 1px
+}
+.ui-datepicker TD SPAN {
+	TEXT-ALIGN: right; PADDING-BOTTOM: 0.2em; PADDING-LEFT: 0.2em; PADDING-RIGHT: 0.2em; DISPLAY: block; TEXT-DECORATION: none; PADDING-TOP: 0.2em
+}
+.ui-datepicker TD A {
+	TEXT-ALIGN: right; PADDING-BOTTOM: 0.2em; PADDING-LEFT: 0.2em; PADDING-RIGHT: 0.2em; DISPLAY: block; TEXT-DECORATION: none; PADDING-TOP: 0.2em
+}
+.ui-helper-hidden-accessible {
+	DISPLAY: none
+}

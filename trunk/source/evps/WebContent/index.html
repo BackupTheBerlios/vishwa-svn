@@ -1,0 +1,149 @@
+<html>
+<title>Educational Visits Planning Application</title>
+	<link href="css/ui-lightness/jquery-ui-1.10.2.custom.css" rel="stylesheet">
+	<script src="js/jquery-1.9.1.js"></script>
+	<script src="js/jquery-ui-1.10.2.custom.js"></script>
+	<script>
+		$(function() {
+			var tabTitle = $("#tab_title"), tabContent = $("#tab_content"), tabTemplate = "<li><a href='#{href}'>#{label}</a> <span class='ui-icon ui-icon-close' role='presentation'>Remove Tab</span></li>", tabCounter = 2;
+
+			var tabs = $("#tabs").tabs();
+
+			// modal dialog init: custom buttons and a "close" callback reseting the form inside
+			var dialog = $("#dialog").dialog({
+				autoOpen : false,
+				modal : true,
+				buttons : {
+					Add : function() {
+						addTab();
+						$(this).dialog("close");
+					},
+					Cancel : function() {
+						$(this).dialog("close");
+					}
+				},
+				close : function() {
+					form[0].reset();
+				}
+			});
+
+			// addTab form: calls addTab function on submit and closes the dialog
+			var form = dialog.find("form").submit(function(event) {
+				addTab();
+				dialog.dialog("close");
+				event.preventDefault();
+			});
+
+			// actual addTab function: adds new tab using the input from the form above
+			function addTab() {
+				var label = tabTitle.val() || "Tab " + tabCounter, id = "tabs-"
+						+ tabCounter, li = $(tabTemplate.replace(/#\{href\}/g,
+						"#" + id).replace(/#\{label\}/g, label)), tabContentHtml = tabContent
+						.val()
+						|| "Tab " + tabCounter + " content.";
+
+				tabs.find(".ui-tabs-nav").append(li);
+				tabs.append("<div id='" + id + "'><p>" + tabContentHtml
+						+ "</p></div>");
+				tabs.tabs("refresh");
+				tabCounter++;
+			}
+
+			// addTab button: just opens the dialog
+			$("#add_tab").button().click(function() {
+				dialog.dialog("open");
+			});
+
+			// close icon: removing the tab on click
+			tabs.delegate("span.ui-icon-close", "click", function() {
+				var panelId = $(this).closest("li").remove().attr(
+						"aria-controls");
+				$("#" + panelId).remove();
+				tabs.tabs("refresh");
+			});
+
+			tabs.bind("keyup", function(event) {
+				if (event.altKey && event.keyCode === $.ui.keyCode.BACKSPACE) {
+					var panelId = tabs.find(".ui-tabs-active").remove().attr(
+							"aria-controls");
+					$("#" + panelId).remove();
+					tabs.tabs("refresh");
+				}
+			});
+		});
+	</script>
+	<style>
+	body{
+		font: 62.5% "Trebuchet MS", sans-serif;
+		margin: 50px;
+	}
+	.demoHeaders {
+		margin-top: 2em;
+	}
+	#dialog-link {
+		padding: .4em 1em .4em 20px;
+		text-decoration: none;
+		position: relative;
+	}
+	#dialog-link span.ui-icon {
+		margin: 0 5px 0 0;
+		position: absolute;
+		left: .2em;
+		top: 50%;
+		margin-top: -8px;
+	}
+	#icons {
+		margin: 0;
+		padding: 0;
+	}
+	#icons li {
+		margin: 2px;
+		position: relative;
+		padding: 4px 0;
+		cursor: pointer;
+		float: left;
+		list-style: none;
+	}
+	#icons span.ui-icon {
+		float: left;
+		margin: 0 4px;
+	}
+	.fakewindowcontain .ui-widget-overlay {
+		position: absolute;
+	}
+	</style>
+</head>
+<body style="HEIGHT:840px;margin:0;margin-top: 0;margin-left: 4px;margin-right: 4px; ">
+	<table width="73%" height="100%" align="center" cellpadding=0
+		cellspacing=0>
+		<tr height="17%">
+			<td colspan=3><iframe name="top" src="./test.htm" scrolling="no"
+					width="100%" height="100%" frameborder="0"> </iframe></td>
+		</tr>
+		<tr height="5%">
+			<td><iframe name="top" src="./blank.html" scrolling="no"
+					width="100%" height="100%" frameborder="0"> </iframe></td>
+			<td colspan="2"><iframe name="top" src="./menu.html"
+					scrolling="no" width="100%" height="100%" frameborder="0">
+				</iframe></td>
+		</tr>
+		<tr height="70%">
+			<td width="18%"><iframe name="left" src="./left.html"
+					scrolling="no" width="100%" height="100%" frameborder="0">
+				</iframe></td>
+			<td width="72%" valign="top"><iframe name="right" src="./home.html"
+					scrolling="no" width="100%" height="100%" frameborder="0"
+					style="TEXT-ALIGN: top; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px;">
+				</iframe></td>
+			<td width="10%"><iframe name="left" src="./blank.html"
+					scrolling="no" width="100%" height="100%" frameborder="0">
+				</iframe></td>
+		</tr>
+		<tr height="2%">
+			<td colspan=3><iframe name="bottom" src="./bottom.html"
+					scrolling="no" width="100%" height="100%" frameborder="0">
+				</iframe></td>
+		</tr>
+	</table>
+</body>
+<html>

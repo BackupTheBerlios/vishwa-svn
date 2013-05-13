@@ -1,0 +1,135 @@
+BODY {
+	BACKGROUND: #fff; COLOR: #000
+}
+.nav {
+	POSITION: absolute; WIDTH: 401px; BACKGROUND: url(blue-nav.gif) no-repeat; HEIGHT: 48px; TOP: 100px; LEFT: 100px
+}
+.nav LI {
+	DISPLAY: inline
+}
+.nav LI A:link {
+	Z-INDEX: 10; POSITION: absolute; TEXT-INDENT: -9000px; HEIGHT: 48px; OVERFLOW: hidden; TOP: 0px
+}
+.nav LI A:visited {
+	Z-INDEX: 10; POSITION: absolute; TEXT-INDENT: -9000px; HEIGHT: 48px; OVERFLOW: hidden; TOP: 0px
+}
+.nav .home A:link {
+	WIDTH: 76px; LEFT: 23px
+}
+.nav .home A:visited {
+	WIDTH: 76px; LEFT: 23px
+}
+.nav .home A:hover {
+	BACKGROUND: url(blue-nav.gif) no-repeat -23px -49px
+}
+.nav .home A:focus {
+	BACKGROUND: url(blue-nav.gif) no-repeat -23px -49px
+}
+.nav .home A:active {
+	BACKGROUND: url(blue-nav.gif) no-repeat -23px -98px
+}
+.current-home .home A:link {
+	BACKGROUND: url(blue-nav.gif) no-repeat -23px -147px; CURSOR: default
+}
+.current-home .home A:visited {
+	BACKGROUND: url(blue-nav.gif) no-repeat -23px -147px; CURSOR: default
+}
+.nav-home {
+	POSITION: absolute; WIDTH: 76px; BACKGROUND: url(blue-nav.gif) no-repeat -23px -49px; HEIGHT: 48px; TOP: 0px; LEFT: 23px
+}
+.nav-home-click {
+	POSITION: absolute; WIDTH: 76px; BACKGROUND: url(blue-nav.gif) no-repeat -23px -49px; HEIGHT: 48px; TOP: 0px; LEFT: 23px
+}
+.nav-home-click {
+	BACKGROUND: url(blue-nav.gif) no-repeat -23px -98px
+}
+.nav .about A:link {
+	WIDTH: 82px; LEFT: 100px
+}
+.nav .about A:visited {
+	WIDTH: 82px; LEFT: 100px
+}
+.nav .about A:hover {
+	BACKGROUND: url(blue-nav.gif) no-repeat -100px -49px
+}
+.nav .about A:focus {
+	BACKGROUND: url(blue-nav.gif) no-repeat -100px -49px
+}
+.nav .about A:active {
+	BACKGROUND: url(blue-nav.gif) no-repeat -100px -98px
+}
+.current-about .about A:link {
+	BACKGROUND: url(blue-nav.gif) no-repeat -100px -147px; CURSOR: default
+}
+.current-about .about A:visited {
+	BACKGROUND: url(blue-nav.gif) no-repeat -100px -147px; CURSOR: default
+}
+.nav-about {
+	POSITION: absolute; WIDTH: 82px; BACKGROUND: url(blue-nav.gif) no-repeat -100px -49px; HEIGHT: 48px; TOP: 0px; LEFT: 100px
+}
+.nav-about-click {
+	POSITION: absolute; WIDTH: 82px; BACKGROUND: url(blue-nav.gif) no-repeat -100px -49px; HEIGHT: 48px; TOP: 0px; LEFT: 100px
+}
+.nav-about-click {
+	BACKGROUND: url(blue-nav.gif) no-repeat -100px -98px
+}
+.nav .services A:link {
+	WIDTH: 97px; LEFT: 183px
+}
+.nav .services A:visited {
+	WIDTH: 97px; LEFT: 183px
+}
+.nav .services A:hover {
+	BACKGROUND: url(blue-nav.gif) no-repeat -183px -49px
+}
+.nav .services A:focus {
+	BACKGROUND: url(blue-nav.gif) no-repeat -183px -49px
+}
+.nav .services A:active {
+	BACKGROUND: url(blue-nav.gif) no-repeat -183px -98px
+}
+.current-services .services A:link {
+	BACKGROUND: url(blue-nav.gif) no-repeat -183px -147px; CURSOR: default
+}
+.current-services .services A:visited {
+	BACKGROUND: url(blue-nav.gif) no-repeat -183px -147px; CURSOR: default
+}
+.nav-services {
+	POSITION: absolute; WIDTH: 97px; BACKGROUND: url(blue-nav.gif) no-repeat -183px -49px; HEIGHT: 48px; TOP: 0px; LEFT: 183px
+}
+.nav-services-click {
+	POSITION: absolute; WIDTH: 97px; BACKGROUND: url(blue-nav.gif) no-repeat -183px -49px; HEIGHT: 48px; TOP: 0px; LEFT: 183px
+}
+.nav-services-click {
+	BACKGROUND: url(blue-nav.gif) no-repeat -183px -98px
+}
+.nav .contact A:link {
+	WIDTH: 97px; LEFT: 281px
+}
+.nav .contact A:visited {
+	WIDTH: 97px; LEFT: 281px
+}
+.nav .contact A:hover {
+	BACKGROUND: url(blue-nav.gif) no-repeat -281px -49px
+}
+.nav .contact A:focus {
+	BACKGROUND: url(blue-nav.gif) no-repeat -281px -49px
+}
+.nav .contact A:active {
+	BACKGROUND: url(blue-nav.gif) no-repeat -281px -98px
+}
+.current-contact .contact A:link {
+	BACKGROUND: url(blue-nav.gif) no-repeat -281px -147px; CURSOR: default
+}
+.current-contact .contact A:visited {
+	BACKGROUND: url(blue-nav.gif) no-repeat -281px -147px; CURSOR: default
+}
+.nav-contact {
+	POSITION: absolute; WIDTH: 97px; BACKGROUND: url(blue-nav.gif) no-repeat -281px -49px; HEIGHT: 48px; TOP: 0px; LEFT: 281px
+}
+.nav-contact-click {
+	POSITION: absolute; WIDTH: 97px; BACKGROUND: url(blue-nav.gif) no-repeat -281px -49px; HEIGHT: 48px; TOP: 0px; LEFT: 281px
+}
+.nav-contact-click {
+	BACKGROUND: url(blue-nav.gif) no-repeat -281px -98px
+}
